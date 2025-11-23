@@ -56,4 +56,4 @@ Introduce email/contraseña de app Cecotec → copia token.
 Issues en GitHub. Compatible QNAP/Container Station.
 
 ## Licencia
-MIT. Autores: TuNombre (con Grok).
+MIT. Autores: Espiralvex (con Grok).

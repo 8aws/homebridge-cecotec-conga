@@ -1,0 +1,40 @@
+{
+  "name": "homebridge-cecotec-conga",
+  "displayName": "Cecotec Conga Integration",
+  "description": "Homebridge plugin for Cecotec Conga X100 with map, Siri, notifications, CarPlay, Watch & HomePod support",
+  "version": "7.0.0",
+  "private": false,
+  "license": "MIT",
+  "author": {
+    "name": "TuNombre (con Grok)",
+    "email": "tuemail@example.com"
+  },
+  "keywords": [
+    "homebridge-plugin",
+    "cecotec",
+    "conga",
+    "x100",
+    "vacuum",
+    "siri",
+    "carplay"
+  ],
+  "engines": {
+    "homebridge": ">=1.7.0",
+    "node": ">=18.0.0"
+  },
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "clean": "rimraf ./dist"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "homebridge": "^1.7.0",
+    "rimraf": "^5.0.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.0"
+  }
+}
